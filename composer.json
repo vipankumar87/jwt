@@ -1,0 +1,40 @@
+{
+    "name": "mazeworld/jwt-auth",
+    "description": "JSON Web Token Authentication for Laravel",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/contracts": "^10.16",
+        "illuminate/http": "^10.16",
+        "illuminate/support": "^10.16",
+        "lcobucci/jwt": "^5.0",
+        "namshi/jose": "^7.2",
+        "nesbot/carbon": "^2.68",
+        "illuminate/auth": "^10.16"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mazeworld\\JwtAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vipan Kumar",
+            "email": "vipan.webdeveloper@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.22",
+        "illuminate/console": "^10.16",
+        "illuminate/routing": "^10.16",
+        "orchestra/testbench": "^8.5",
+        "mockery/mockery": "^1.6",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2",
+        "rector/rector": "^0.17.7",
+        "vlucas/phpdotenv": "^5.5",
+        "yoast/phpunit-polyfills": "^2.0"
+    }
+}
