@@ -2,7 +2,7 @@
     "name": "mazeworld/jwt-auth",
     "description": "JSON Web Token Authentication for Laravel",
     "require": {
-        "php": "^8.*",
+        "php": "8.*",
         "ext-json": "*",
         "illuminate/contracts": "^10.16",
         "illuminate/http": "^10.16",
