@@ -24,7 +24,7 @@
             "email": "vipan.webdeveloper@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.22",
         "illuminate/console": "^10.16",
