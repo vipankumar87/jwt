@@ -4,13 +4,13 @@
     "require": {
         "php": "8.*",
         "ext-json": "*",
-        "illuminate/contracts": "^10.16",
-        "illuminate/http": "^10.16",
-        "illuminate/support": "^10.16",
-        "lcobucci/jwt": "^5.0",
-        "namshi/jose": "^7.2",
-        "nesbot/carbon": "^2.68",
-        "illuminate/auth": "^10.16"
+        "illuminate/contracts": "10.*",
+        "illuminate/http": "10.*",
+        "illuminate/support": "10.*",
+        "lcobucci/jwt": "5.*",
+        "namshi/jose": "7.*",
+        "nesbot/carbon": "2.*",
+        "illuminate/auth": "10.*"
     },
     "license": "MIT",
     "autoload": {
@@ -26,15 +26,15 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.22",
-        "illuminate/console": "^10.16",
-        "illuminate/routing": "^10.16",
-        "orchestra/testbench": "^8.5",
-        "mockery/mockery": "^1.6",
-        "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^10.2",
-        "rector/rector": "^0.17.7",
-        "vlucas/phpdotenv": "^5.5",
-        "yoast/phpunit-polyfills": "^2.0"
+        "friendsofphp/php-cs-fixer": "3.*",
+        "illuminate/console": "10.*",
+        "illuminate/routing": "10.*",
+        "orchestra/testbench": "8.*",
+        "mockery/mockery": "1.*",
+        "phpstan/phpstan": "1.*",
+        "phpunit/phpunit": "10.*",
+        "rector/rector": "0.17.*",
+        "vlucas/phpdotenv": "5.*",
+        "yoast/phpunit-polyfills": "2.*"
     }
 }
